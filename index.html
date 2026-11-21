@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Badlands Interactive Studio</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800&family=Barlow:wght@400;600&display=swap">
+<style>
+:root{--bg:#1d1f23;--ink:#f4f1ea;--muted:#a6a9b0;--gold:#ffc20e;--card:#26282e;--line:#33363d}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Barlow",system-ui,sans-serif;line-height:1.55}
+.in{max-width:720px;margin:0 auto;padding:48px max(16px, env(safe-area-inset-right, 0px)) 56px max(16px, env(safe-area-inset-left, 0px))}
+.k{font-family:"Barlow Condensed","Arial Narrow",sans-serif;font-weight:800;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);font-size:15px}
+h1{font-family:"Barlow Condensed","Arial Narrow",sans-serif;font-weight:800;font-size:clamp(36px,8vw,52px);line-height:1;margin:8px 0 14px}
+.stripe{height:10px;background:repeating-linear-gradient(-45deg,var(--gold) 0 12px,var(--bg) 12px 24px)}
+.game{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:20px;margin-top:28px}
+.game h2{font-family:"Barlow Condensed","Arial Narrow",sans-serif;font-weight:800;font-size:30px;margin:0 0 4px;color:var(--gold)}
+.game p{margin:0 0 12px;color:var(--muted)}
+a{color:var(--gold);font-weight:600;text-underline-offset:3px}
+footer{color:var(--muted);font-size:14px;margin-top:40px}
+</style>
+</head>
+<body>
+<div class="stripe"></div>
+<div class="in">
+  <div class="k">Independent games</div>
+  <h1>Badlands Interactive Studio</h1>
+  <p>We make small, satisfying games for phones.</p>
+  <div class="game">
+    <h2>Crumbleworks</h2>
+    <p>A relaxing demolition game. Set your charges, then let real physics bring the building down.</p>
+    <a href="crumbleworks/privacy/">Privacy policy</a>
+  </div>
+  <footer>Contact: badlandsinteractivestudio@gmail.com</footer>
+</div>
+</body>
+</html>
